@@ -4,7 +4,7 @@
   <Header>
     <Version val="14050.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="2"/>
+    <LastIsn val="4"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -17,6 +17,12 @@
       <Right id="2" name="ULTRA">
         <PublicRight val="N"/>
         <Key val="ULTRA"/>
+      </Right>
+      <Right id="3" name="newRight1">
+        <PublicRight val="Y"/>
+      </Right>
+      <Right id="4" name="newRight2">
+        <PublicRight val="Y"/>
       </Right>
     </Rights>
   </RightsRepository>
