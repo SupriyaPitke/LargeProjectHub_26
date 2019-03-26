@@ -4,7 +4,7 @@
   <Header>
     <Version val="14050.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="5"/>
+    <LastIsn val="6"/>
   </Header>
 
   <MenusRepository>
@@ -2113,6 +2113,59 @@
       <Menu>
         <ToolNumber val="5"/>
         <Name val="Menu Programs"/>
+        <Description_U val="MenuPrograms"/>
+        <LastIsn val="2"/>
+        <MenuEntry id="1">
+          <MenuType val="1"/>
+          <Description_U val="Menu Programs"/>
+          <Right comp="-1"/>
+          <Help comp="-1"/>
+          <Prompt comp="-1"/>
+          <Menu>
+            <MenuType val="1"/>
+            <LastIsn val="5"/>
+            <MenuEntry id="1">
+              <MenuType val="2"/>
+              <Description_U val="Menu Accelerator"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="340" comp="-1" obj="340"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="2">
+              <MenuType val="2"/>
+              <Description_U val="MnuAdd and MnuRemove"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="341" comp="-1" obj="341"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="3">
+              <MenuType val="2"/>
+              <Description_U val="MnuShow and MnuHide"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="344" comp="-1" obj="344"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+            <MenuEntry id="4">
+              <MenuType val="2"/>
+              <Description_U val="MnuCheck and MnuUncheck"/>
+              <Right comp="-1"/>
+              <Help comp="-1"/>
+              <Prompt comp="-1"/>
+              <Program ObjIsn="342" comp="-1" obj="342"/>
+              <SourceContext val="67"/>
+            </MenuEntry>
+          </Menu>
+        </MenuEntry>
+      </Menu>
+      <Menu>
+        <ToolNumber val="6"/>
+        <Name val="new Menu Programs"/>
         <Description_U val="MenuPrograms"/>
         <LastIsn val="2"/>
         <MenuEntry id="1">
