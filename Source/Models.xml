@@ -155,6 +155,11 @@
           <Model attr_obj="FIELD_ALPHA" id="1"/>
         </PropertyList>
       </Object>
+      <Object id="14" name="newMode2">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+        </PropertyList>
+      </Object>
     </Models>
   </ModelsRepository>
 
